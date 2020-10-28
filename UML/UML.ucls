@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="controller" project="EditGeo" file="/EditGeo/src/controller" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="3490" width="7107" x="4910" y="495"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="controller.state" project="EditGeo" file="/EditGeo/src/controller/state" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1600" width="4540" x="5125" y="2255"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="3" language="java" name="controller.DeleteShapeCommand" project="EditGeo" 
+    file="/EditGeo/src/controller/DeleteShapeCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9891" y="1223"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="controller.RemoveShapeCommand" project="EditGeo" 
+    file="/EditGeo/src/controller/RemoveShapeCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10131" y="1223"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="controller.AddToCompositCommand" project="EditGeo" 
+    file="/EditGeo/src/controller/AddToCompositCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10658" y="1232"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="controller.AddShapeCommand" project="EditGeo" 
+    file="/EditGeo/src/controller/AddShapeCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10967" y="1223"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="controller.Command" project="EditGeo" 
+    file="/EditGeo/src/controller/Command.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10940" y="777"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="controller.CommandMemory" project="EditGeo" 
+    file="/EditGeo/src/controller/CommandMemory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="10358" y="1232"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="controller.Controller" project="EditGeo" 
+    file="/EditGeo/src/controller/Controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8342" y="1738"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="controller.MoveShapeCommand" project="EditGeo" 
+    file="/EditGeo/src/controller/MoveShapeCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11197" y="1232"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="controller.RemoveFromCompositeCommand" project="EditGeo" 
+    file="/EditGeo/src/controller/RemoveFromCompositeCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11484" y="1223"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="controller.ChangeAttributShapeCommand" project="EditGeo" 
+    file="/EditGeo/src/controller/ChangeAttributShapeCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="11809" y="1232"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="13" language="java" name="controller.state.State" project="EditGeo" 
+    file="/EditGeo/src/controller/state/State.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8473" y="2518"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" language="java" name="controller.state.ModifieShapeDialogBoxState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/ModifieShapeDialogBoxState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5710" y="3610"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="controller.state.MoveShapeOnWhiteBoardState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/MoveShapeOnWhiteBoardState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6180" y="3565"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="controller.state.DeleteShapeState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/DeleteShapeState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6541" y="3493"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="controller.state.GroupDialogBoxState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/GroupDialogBoxState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6850" y="3538"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="controller.state.CreateShapeToToolbarState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/CreateShapeToToolbarState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7218" y="3493"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="controller.state.FromToolbarState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/FromToolbarState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7639" y="3547"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="controller.state.SelectionState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/SelectionState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8051" y="3583"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="controller.state.InToolbarState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/InToolbarState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8460" y="3520"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="controller.state.InitState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/InitState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8869" y="3547"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="controller.state.InWhiteBoardState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/InWhiteBoardState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9278" y="3493"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="24" language="java" name="model" project="EditGeo" file="/EditGeo/src/model" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="2584" width="4017" x="6668" y="4229"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="25" language="java" name="model.Square" project="EditGeo" file="/EditGeo/src/model/Square.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6954" y="6418"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="model.Point" project="EditGeo" file="/EditGeo/src/model/Point.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7289" y="4514"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="model.Polygon" project="EditGeo" file="/EditGeo/src/model/Polygon.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7465" y="6528"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="model.Shape" project="EditGeo" file="/EditGeo/src/model/Shape.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7296" y="5014"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="model.Serializer" project="EditGeo" file="/EditGeo/src/model/Serializer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9476" y="5433"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="model.ShapeComposite" project="EditGeo" 
+    file="/EditGeo/src/model/ShapeComposite.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7870" y="6520"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="31" language="java" name="model.ShapePrototype" project="EditGeo" 
+    file="/EditGeo/src/model/ShapePrototype.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8143" y="4791"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="32" language="java" name="model.ColorRGB" project="EditGeo" file="/EditGeo/src/model/ColorRGB.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8095" y="5279"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="model.Plan" project="EditGeo" file="/EditGeo/src/model/Plan.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9478" y="5012"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="34" language="java" name="view" project="EditGeo" file="/EditGeo/src/view" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="3842" width="5276" x="1090" y="4269"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="35" language="java" name="view.MouseListener" project="EditGeo" file="/EditGeo/src/view/MouseListener.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4610" y="4857"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="36" language="java" name="view.MouseButton" project="EditGeo" 
+    file="/EditGeo/src/view/MouseButton.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2651" y="5868"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="37" language="java" name="view.ViewToolBar" project="EditGeo" file="/EditGeo/src/view/ViewToolBar.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5828" y="5201"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="view.DialogGroup" project="EditGeo" file="/EditGeo/src/view/DialogGroup.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2720" y="5395"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="view.DialogBoxFactory" project="EditGeo" 
+    file="/EditGeo/src/view/DialogBoxFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3025" y="5400"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="view.JFXViewPlan" project="EditGeo" file="/EditGeo/src/view/JFXViewPlan.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4287" y="5761"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="view.ViewPlan" project="EditGeo" file="/EditGeo/src/view/ViewPlan.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5102" y="5715"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="view.ViewWindow" project="EditGeo" file="/EditGeo/src/view/ViewWindow.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5783" y="4553"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="43" language="java" name="view.EditDialogBox" project="EditGeo" 
+    file="/EditGeo/src/view/EditDialogBox.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4471" y="7572"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="44" language="java" name="view.JFXCompositeEditDialog" project="EditGeo" 
+    file="/EditGeo/src/view/JFXCompositeEditDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5691" y="6582"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="view.MouseEventInfo" project="EditGeo" 
+    file="/EditGeo/src/view/MouseEventInfo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2670" y="5588"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="view.JFXSquareEditDialog" project="EditGeo" 
+    file="/EditGeo/src/view/JFXSquareEditDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6085" y="7624"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="view.ViewWhiteBoard" project="EditGeo" 
+    file="/EditGeo/src/view/ViewWhiteBoard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5212" y="4988"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="48" language="java" name="view.ViewObserver" project="EditGeo" 
+    file="/EditGeo/src/view/ViewObserver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5875" y="5847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="49" language="java" name="view.ViewWindowAPI" project="EditGeo" 
+    file="/EditGeo/src/view/ViewWindowAPI.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3640" y="4595"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="50" language="java" name="view.JFXPolygonEditDialog" project="EditGeo" 
+    file="/EditGeo/src/view/JFXPolygonEditDialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4822" y="6244"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="51" language="java" name="view.ViewPlanAPI" project="EditGeo" file="/EditGeo/src/view/ViewPlanAPI.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3583" y="6661"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="52" language="java" name="view.JFXViewWindow" project="EditGeo" file="/EditGeo/src/view/JFXViewWindow.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3589" y="5770"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="53">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="54" name="inToolbarState"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="56">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="57" name="rotation_center"/>      
+      <multiplicity id="58" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="59">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="60" name="shape"/>      
+      <multiplicity id="61" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="62">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="63" name="curr"/>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="65">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="66" name="groupDialogBoxState"/>      
+      <multiplicity id="67" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="68">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="69" name="controller"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="71">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="72" name="old"/>      
+      <multiplicity id="73" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="74">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="75" name="toolbar_plan"/>      
+      <multiplicity id="76" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="77">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="78" name="fig"/>      
+      <multiplicity id="79" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="80">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="81" name="whiteboard"/>      
+      <multiplicity id="82" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="83">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="84" name="translation"/>      
+      <multiplicity id="85" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="86">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="87" name="s"/>      
+      <multiplicity id="88" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="89">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="90" name="moveShapeOnWhiteBoardState"/>      
+      <multiplicity id="91" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="92">    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="93" name="color"/>      
+      <multiplicity id="94" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="95">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="96" name="selectionState"/>      
+      <multiplicity id="97" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="98">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="49"/>  
+  </realization>  
+  <realization id="99">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <realization id="100">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="31"/>  
+  </realization>  
+  <association id="101">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="102" name="observers"/>      
+      <multiplicity id="103" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="48" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="104">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <association id="105">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="106" name="plan"/>      
+      <multiplicity id="107" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="108">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="109">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="110" name="shape"/>      
+      <multiplicity id="111" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="112">    
+    <end type="SOURCE" refId="50" navigable="false">      
+      <attribute id="113" name="rotation_center"/>      
+      <multiplicity id="114" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="115">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="116" name="old"/>      
+      <multiplicity id="117" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="118">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="119">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="120" name="shapeArray"/>      
+      <multiplicity id="121" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="122">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="123" name="plan"/>      
+      <multiplicity id="124" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="125">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="126">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="127" name="whiteboard"/>      
+      <multiplicity id="128" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="129">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="130" name="end"/>      
+      <multiplicity id="131" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="132">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="133">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="134" name="window"/>      
+      <multiplicity id="135" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="42" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="136">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="28"/>  
+  </generalization>  
+  <association id="137">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="138" name="currentState"/>      
+      <multiplicity id="139" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="140">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="141" name="plan"/>      
+      <multiplicity id="142" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="143">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="144" name="w_api"/>      
+      <multiplicity id="145" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="49" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="146">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="147">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="148">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="149" name="createShapeToToolbarState"/>      
+      <multiplicity id="150" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="151">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="28"/>  
+  </generalization>  
+  <realization id="152">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="43"/>  
+  </realization>  
+  <generalization id="153">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="28"/>  
+  </generalization>  
+  <association id="154">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="155" name="view_api"/>      
+      <multiplicity id="156" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="157">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="158">    
+    <bendpoint x="9408" y="6604"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="159" name="shc"/>      
+      <multiplicity id="160" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="161">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="162" name="whiteboard_plan"/>      
+      <multiplicity id="163" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="164">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="165" name="shapes"/>      
+      <multiplicity id="166" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="167">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="43"/>  
+  </realization>  
+  <association id="168">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="169" name="start"/>      
+      <multiplicity id="170" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="171">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="172" name="plan"/>      
+      <multiplicity id="173" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="174">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="175" name="commandList"/>      
+      <multiplicity id="176" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="177">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <association id="178">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="179" name="viewPlan"/>      
+      <multiplicity id="180" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="181">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="182" name="fromToolbarState"/>      
+      <multiplicity id="183" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="184">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="185" name="plan"/>      
+      <multiplicity id="186" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="187">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="188" name="plan"/>      
+      <multiplicity id="189" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="190">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="191">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="192" name="commands"/>      
+      <multiplicity id="193" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="194">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="195" name="toolbar"/>      
+      <multiplicity id="196" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="197">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="198" name="wb"/>      
+      <multiplicity id="199" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="200">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="201" name="mouseListener"/>      
+      <multiplicity id="202" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="203">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="204" name="whiteboard"/>      
+      <multiplicity id="205" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="206">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="207" name="finalSelectionnedShapes"/>      
+      <multiplicity id="208" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="209">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="210" name="plan"/>      
+      <multiplicity id="211" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="212">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="213" name="toolbar"/>      
+      <multiplicity id="214" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="215">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="216" name="plan"/>      
+      <multiplicity id="217" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="218">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="219" name="pos"/>      
+      <multiplicity id="220" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="221">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="222" name="initState"/>      
+      <multiplicity id="223" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="224">    
+    <end type="SOURCE" refId="50" navigable="false">      
+      <attribute id="225" name="s"/>      
+      <multiplicity id="226" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="227">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="228" name="deleteShapeState"/>      
+      <multiplicity id="229" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="230">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="231" name="translationTb"/>      
+      <multiplicity id="232" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="233">    
+    <end type="SOURCE" refId="52" navigable="false">      
+      <attribute id="234" name="wb"/>      
+      <multiplicity id="235" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="236">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="237" name="shape"/>      
+      <multiplicity id="238" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="239">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="240">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="241" name="window"/>      
+      <multiplicity id="242" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="42" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="243">    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="244" name="rotation_center"/>      
+      <multiplicity id="245" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="246">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="43"/>  
+  </realization>  
+  <association id="247">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="248" name="newShape"/>      
+      <multiplicity id="249" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="250">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="251" name="inWhiteBoardState"/>      
+      <multiplicity id="252" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="253">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="254">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="255" name="rotation_center"/>      
+      <multiplicity id="256" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="257">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="258" name="plan"/>      
+      <multiplicity id="259" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="260">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="261" name="button"/>      
+      <multiplicity id="262" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="263">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="264">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="265" name="translationWb"/>      
+      <multiplicity id="266" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="267">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="268" name="mouseListener"/>      
+      <multiplicity id="269" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="270">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="271" name="curr"/>      
+      <multiplicity id="272" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="273">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="274" name="fig"/>      
+      <multiplicity id="275" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="276">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="277" name="plan"/>      
+      <multiplicity id="278" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="279">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="280" name="modifieShapeDialogBoxState"/>      
+      <multiplicity id="281" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="282">    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="283" name="viewPlan"/>      
+      <multiplicity id="284" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="285">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="286">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="287" name="old"/>      
+      <multiplicity id="288" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="289">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="48"/>  
+  </realization>  
+  <association id="290">    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="291" name="s"/>      
+      <multiplicity id="292" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="293">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="51"/>  
+  </realization>  
+  <association id="294">    
+    <bendpoint x="10556" y="6104"/>    
+    <bendpoint x="9408" y="6716"/>    
+    <bendpoint x="8356" y="6580"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="295" name="comp"/>      
+      <multiplicity id="296" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="297">    
+    <end type="SOURCE" refId="50" navigable="false">      
+      <attribute id="298" name="viewPlan"/>      
+      <multiplicity id="299" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="300">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="301" name="shape"/>      
+      <multiplicity id="302" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="303">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="304">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="305" name="window"/>      
+      <multiplicity id="306" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="42" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="307">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="308" name="shape"/>      
+      <multiplicity id="309" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="310">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="311" name="selectionnedShapes"/>      
+      <multiplicity id="312" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="313">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="314" name="plan"/>      
+      <multiplicity id="315" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="316">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="317">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="318">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="319" name="window"/>      
+      <multiplicity id="320" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="42" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="321">    
+    <end type="SOURCE" refId="52" navigable="false">      
+      <attribute id="322" name="tb"/>      
+      <multiplicity id="323" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="324">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="325" name="save"/>      
+      <multiplicity id="326" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="327">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="328" name="observers"/>      
+      <multiplicity id="329" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="48" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="330">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="331" name="shapes"/>      
+      <multiplicity id="332" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="333">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="334" name="se"/>      
+      <multiplicity id="335" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="336">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="337" name="window"/>      
+      <multiplicity id="338" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="42" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="339">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="340" name="color"/>      
+      <multiplicity id="341" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="342">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="343" name="color"/>      
+      <multiplicity id="344" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="345">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="346" name="stb"/>      
+      <multiplicity id="347" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="348">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="349">    
+    <end type="SOURCE" refId="52" navigable="false">      
+      <attribute id="350" name="mouseListener"/>      
+      <multiplicity id="351" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="352">    
+    <end type="SOURCE" refId="50" navigable="false">      
+      <attribute id="353" name="color"/>      
+      <multiplicity id="354" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="controller" project="EditGeo" file="/EditGeo/src/controller" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="2491" width="5474" x="-369" y="257"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="2" language="java" name="controller.DeleteShapeCommand" project="EditGeo" 
+    file="/EditGeo/src/controller/DeleteShapeCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="196" x="-326" y="654"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="controller.RemoveShapeCommand" project="EditGeo" 
+    file="/EditGeo/src/controller/RemoveShapeCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="205" x="-90" y="654"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="controller.AddToCompositCommand" project="EditGeo" 
+    file="/EditGeo/src/controller/AddToCompositCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="351" x="364" y="654"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="controller.AddShapeCommand" project="EditGeo" 
+    file="/EditGeo/src/controller/AddShapeCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="186" x="755" y="654"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="controller.Command" project="EditGeo" 
+    file="/EditGeo/src/controller/Command.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="621" y="398"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="controller.CommandMemory" project="EditGeo" 
+    file="/EditGeo/src/controller/CommandMemory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="169" x="155" y="654"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="controller.Controller" project="EditGeo" 
+    file="/EditGeo/src/controller/Controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="235" y="1239"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="controller.MoveShapeCommand" project="EditGeo" 
+    file="/EditGeo/src/controller/MoveShapeCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="195" x="981" y="654"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="controller.RemoveFromCompositeCommand" project="EditGeo" 
+    file="/EditGeo/src/controller/RemoveFromCompositeCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="298" x="1216" y="654"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="controller.ChangeAttributShapeCommand" project="EditGeo" 
+    file="/EditGeo/src/controller/ChangeAttributShapeCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="272" x="1554" y="654"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="12" language="java" name="controller.state" project="EditGeo" file="/EditGeo/src/controller/state" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1686" width="4274" x="521" y="975"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="13" language="java" name="controller.state.State" project="EditGeo" 
+    file="/EditGeo/src/controller/state/State.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2593" y="1306"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" language="java" name="controller.state.ModifieShapeDialogBoxState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/ModifieShapeDialogBoxState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="964" y="2100"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="controller.state.MoveShapeOnWhiteBoardState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/MoveShapeOnWhiteBoardState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1434" y="2055"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="controller.state.DeleteShapeState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/DeleteShapeState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1795" y="1983"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="controller.state.GroupDialogBoxState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/GroupDialogBoxState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2104" y="2028"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="controller.state.CreateShapeToToolbarState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/CreateShapeToToolbarState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2472" y="1983"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="controller.state.FromToolbarState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/FromToolbarState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2893" y="2037"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="controller.state.SelectionState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/SelectionState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3305" y="2073"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="controller.state.InToolbarState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/InToolbarState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3714" y="2010"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="controller.state.InitState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/InitState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4123" y="2037"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="controller.state.InWhiteBoardState" project="EditGeo" 
+    file="/EditGeo/src/controller/state/InWhiteBoardState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="443" x="4329" y="1970"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="24">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="25">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="26" name="createShapeToToolbarState"/>      
+      <multiplicity id="27" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="28">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="29" name="moveShapeOnWhiteBoardState"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="31">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="32" name="initState"/>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="34">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <realization id="35">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <realization id="36">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="37">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="38" name="modifieShapeDialogBoxState"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="40">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="41" name="groupDialogBoxState"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="43">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="44" name="deleteShapeState"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="46">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <association id="47">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="48" name="currentState"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="50">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="51" name="inWhiteBoardState"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="53">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <realization id="54">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <association id="55">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="56" name="fromToolbarState"/>      
+      <multiplicity id="57" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="58">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <association id="59">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="60" name="commandList"/>      
+      <multiplicity id="61" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="62">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="63">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="64" name="commands"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="66">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <realization id="67">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="68">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <realization id="69">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="70">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <realization id="71">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="72">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="73">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="74" name="inToolbarState"/>      
+      <multiplicity id="75" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="76">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <association id="77">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="78" name="selectionState"/>      
+      <multiplicity id="79" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
