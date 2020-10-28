@@ -2,7 +2,7 @@
 
 This is a software to edit geometric shapes made in JAVA. 
 
-![EditGeo Snapshot](snap0.png?raw=true "snapshot")
+![EditGeo Snapshot](Capture.png?raw=true "snapshot")
 
 ## How to use ##
 
